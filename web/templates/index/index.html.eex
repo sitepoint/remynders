@@ -1,0 +1,6 @@
+<div class="headline">Set Quick Reminders Quickly</div>
+
+<div class="center_block">
+ <%= link "Create Reminder", to: reminder_path(@conn, :new), class: "button" %>
+
+</div>
